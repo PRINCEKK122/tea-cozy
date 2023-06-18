@@ -12,8 +12,6 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
-    position: relative;
-    z-index: 1;
 }
 
 header {
@@ -23,22 +21,22 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
-    opacity: 1;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1;
-    overflow: hidden;
-    background-color: black;
+    background-color: inherit;
 }
 
 header img {
     height: 50px;
+    opacity: 0.65;
 }
 
 header nav {
     width: 20%;
+    opacity: 0.65;
 }
 
 header nav ul {
